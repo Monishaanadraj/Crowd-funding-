@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerImage {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.bgimage1 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 10px;
+    background-position: center;
+}
+
+.content_about {
+    position: absolute;
+    margin: 0 auto;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    top: 10%;
+    margin: 10px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.content_about h1 {
+    position: relative;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+    width: 300px;
+    left: 40%;
+}
+
+.content_about p {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    top: 0;
+    margin: 20px;
+    color: white;
+}
+
+.button{
+    position: relative;
+    justify-content: center;
+    align-items:center ;
+    margin: 50px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    left: 40%;
+    top: 30px;
+    background-color:goldenrod ;
+    color: black;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.button:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(15,15,67);
+}
+
+.list{
+    margin: 20px;
+    position: relative;
+    color: rgb(15,15,67);
+    font-size: 18px;
+}
+
+.list li{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.work{
+    position: relative;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(15,15,67);
+}
+.work h1{
+    padding: 15px;
+    font-size:20px;
+}
+
+.work li{
+    margin-left: 70px;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+.add li{
+    margin-left: 100px;
+}
+
+.work1{
+    position: relative;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(15,15,67);
+    font-weight: bold;
+}
